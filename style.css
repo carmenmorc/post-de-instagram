@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.post{
+    background-color: white;
+    width: 33%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.header{
+    display: flex;
+    position: relative;
+    height: 5%;
+    padding: 15px 15px 10px 15px;
+}
+
+.pfp{
+    width: 30px;
+    height: 45px;
+    overflow: hidden;
+}
+
+.pfp img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.titulo{
+    margin-left: 20px;
+}
+
+.nombre{
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubicacion{
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ajustes{
+    font-size: 30px;
+    position: absolute;
+    right: 27px;
+}
+
+.img img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.caption{
+    padding: 15px;
+}
+
+.iconos{
+    height: 5%;
+    display: flex;
+    position: relative;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.primeros{
+    letter-spacing: 5px;
+}
+
+.save{
+    position: absolute;
+    right: 15px;
+}
+
+.likes, .descripcion{
+    margin-bottom: 15px;
+}
